@@ -1,0 +1,37 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "react project using typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saulo Tsuchida",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://www.typescriptlang.org/docs/handbook/react-&-webpack.html"
+  },
+  "dependencies": {
+    "@types/react": "^15.0.23",
+    "@types/react-dom": "^15.5.0",
+    "bootstrap-sass": "^3.3.7",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.16.1",
+    "typescript": "^2.3.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
