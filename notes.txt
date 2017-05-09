@@ -1,0 +1,8 @@
+#As a <ROLE> I want to <ACTION> in order to <VALUE FOR THE USER>.
+
+Feature: <feature title>
+As a <persona|role>
+I want to <action>
+So that <outcome>
+
+.\node_modules\.bin\cucumber-js --format pretty --require features/step_definitions
