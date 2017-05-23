@@ -1,5 +1,8 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
 body {
   font: 14px "Century Gothic", Futura, sans-serif;

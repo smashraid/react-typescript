@@ -21,4 +21,4 @@ import { ISquareState } from "../interfaces/state";
 
 export const Square = (props: ISquareProps) =>  <button className="square" onClick={() => props.onClick()} >
                                                     {props.value}
-                                                </button>;
+                                                </button>;                                         

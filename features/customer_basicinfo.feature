@@ -5,14 +5,14 @@ Feature: Get Quote
 
   Scenario: Get MRT Quote
     Given I navigate to "http://qa.oea.metlifetermlife.com/MRT"
-    And I select state with value "AL" and name "a3z.person.Address.State"
-    And I select month with value "3" and name "a3z.person.DateOfBirth.Month"
-    And I select day with value "20" and name "a3z.person.DateOfBirth.Day"
-    And I select year with value "1970" and name "a3z.person.DateOfBirth.Year"
-    #And I wait for "10" sec
-    And I select gender with value "M"  and name "a3z.person.Gender"
-    And I select tobacco with value "No" and name "a3z.data.tobacco"        
-    And I select term with value "15" and name "a3z.data.Term"
-    And I select amount with value "50000" and name "a3z.data.FaceAmount"
+    And use the following data      
+      | a3z.person.Address.State     | AL    |
+      | a3z.person.DateOfBirth.Month | 3     |
+      | a3z.person.DateOfBirth.Day   | 20    |
+      | a3z.person.DateOfBirth.Year  | 1970  |
+      | a3z.person.Gender            | M     | 
+      | a3z.data.tobacco             | No    |
+      | a3z.data.Term                | 15    |
+      | a3z.data.FaceAmount          | 50000 |    
     When I click on Get My Quote with id "btnGetQuote"
-    Then I should see a coverage
+    Then I should see a coverage with id "CoverageResultPrice"

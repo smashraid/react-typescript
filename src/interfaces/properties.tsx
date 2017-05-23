@@ -13,3 +13,15 @@ export interface IGameProps {
 export interface Square {
     squares: string[];
 }
+
+export interface TopicParameter {
+    topicId: string;
+}
+
+export interface TopicsParameter {
+    url: string;
+}
+
+export interface ChildParameter {
+    id: string;
+}

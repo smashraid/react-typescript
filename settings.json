@@ -1,0 +1,13 @@
+{
+    "cucumberautocomplete.steps": [
+        "features/step_definitions/**/*.js"        
+    ],
+    "cucumberautocomplete.pages": {        
+        "helper": "features/support/helper.js"
+    },
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    }
+}

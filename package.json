@@ -14,11 +14,15 @@
     "url": "http://www.typescriptlang.org/docs/handbook/react-&-webpack.html"
   },
   "dependencies": {
+    "@types/history": "^4.5.1",
     "@types/react": "^15.0.23",
     "@types/react-dom": "^15.5.0",
+    "@types/react-router-dom": "^4.0.4",
     "bootstrap-sass": "^3.3.7",
+    "history": "^4.6.1",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.1.2",
